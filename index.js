@@ -26,7 +26,6 @@ function createClient(TOKEN, data, timeout = 0, login = true) {
 }
 
 const users = require("./users.js");
-const clients = [];
 
 for (let i = 0; i < users.length; i++) {
   createClient(
