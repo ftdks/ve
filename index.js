@@ -1,11 +1,5 @@
 require("./server.js");
 
-const os = require("os");
-const bitfield = require("discord-bitfield-calculator");
-const axios = require("axios");
-const moment = require("moment");
-const { stripIndents } = require("common-tags");
-
 const { Client } = require("discord.js-selfbot-v13");
 const DCHS = require("dchs");
 
@@ -51,24 +45,3 @@ function log(client) {
   console.log("-".repeat(client.user.email.split("").length + 12));
   client.user.setStatus("dnd");
 }
-
-
-/* const aceward = createClient(process.env.token_aceward, {
-  channels: require("./old_data/lbbi/channels.json"),
-  messages: require("./old_data/lbbi/messages.js"),
-});
-
-const tata = createClient(process.env.token_tata, {
-  channels: require("./old_data/nolf/channels.json"),
-  messages: require("./old_data/nolf/messages.js"),
-});
-
-const noveliaClient = createClient(
-  process.env.token_novelia,
-  require("./data/mndi.js")
-);
-
-const rheaClient = createClient(
-  process.env.token_rhea,
-  require("./data/faylm.js")
-); */
