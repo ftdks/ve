@@ -1,6 +1,7 @@
 const { stripIndents } = require("common-tags");
 
 const data = {
+  /*
   seeds: {
     ch: ["1105154359114875072"],
     msg: stripIndents`SELL SSP AT **MNDI**
@@ -92,7 +93,8 @@ Swiss Cheese Block Seed
 CHEAP SSP AT **MNDI**
 **GO MNDI**`
   },
-  
+  */
+  /*
   paint: {
     ch: ["774455258407370752"],
     msg: stripIndents`CHEAP PAINT SHOP AT <:Verified:1000267030550827128> **MNDI** <:Verified:1000267030550827128> 
@@ -129,7 +131,40 @@ Sell Bathub
 
 Remember  <:Verified:1000267030550827128>  **MNDI** <:Verified:1000267030550827128>`
   },
- 
+ */
+  /*
+  summer: {
+    ch: ["806456760592105483"],
+    msg: stripIndents`SELL SUMMER AT <:Arrow:850540193626193941> **AYUEIA**
+    Super Summer Surprise
+    Super Firework
+    SELL SUMMER AT <:Arrow:850540193626193941> **AYUEIA**`
+  },
+  
+  rare: {
+    ch: ["900836866373333052", "782718904056807494"], // rare items
+    msg: stripIndents`CHEAP GO **AYUEIA**
+    
+    Guardian Pineapple
+    Unstable Tesseract
+    Gaia's Beacon
+    Magplant 5000
+    
+    CHEAP GO **AYUEIA**`
+  }, */
+  
+  ubiweek: {
+    ch: ["997609617410490418"],
+    msg: stripIndents`CHEAP UBIWEEK GO **AYUEIA**
+    Immortals Fenyx Rising - Eternal Spring Mountain 1WL
+    Immortals Fenyx Rising - Eternal Spring Column 1WL
+    Immortals Fenyx Rising - Athena Statue 5WL
+    Rayman - Dream Forest Dirt 2WL
+    Rayman Dream Forest Platform 5/1WL
+    CHEAP UBIWEEK GO **AYUEIA**`
+  }
+  
+  
 }
 
 const channels = {};
