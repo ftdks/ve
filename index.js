@@ -11,10 +11,13 @@ function createClient(TOKEN, data, timeout = 0, login = true) {
     client.login(TOKEN);
     client.on("ready", async (client) => {
       log(client);
-      setTimeout(
-        () => dchs.spams("571992648190263317", data.channels, data.messages),
-        timeout
-      );
+      setTimeout(() => {
+        //if(!client.guilds.cache.get("571992648190263317")
+        //  .members.cache.get(client.user.id)
+        //  .roles.find(r => r.id == "591353499082686620")) {
+          dchs.spams("571992648190263317", data.channels, data.messages)
+        //}
+      }, timeout);
     });
 
     client.on("messageCreate", (msg) =>
