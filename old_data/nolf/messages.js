@@ -42,6 +42,7 @@ Sell Heart Monitor
 Sell Hospital Door
 Sell Holographic Sign (Holo Sign)
 Sell Legal Brief
+Sell Surg-E 4/1
 
 Sell at :arrow_right: : **NOLF**`,
   
@@ -60,8 +61,6 @@ Sell at :arrow_right: : **NOLF**`,
 <:SurgicalTransfusion:892136795712659516> Surgical Transfusion 16/1
 <:SurgicalUltrasound:892136795570065489> Surgical Ultrasound 16/1
 <:SurgicalStitches:892136728607985734> Surgical Stitches
-
-Surg-E 4/1
 
 Sell Surgery Tools at <:Arrow:850540193626193941> **NOLF**`,
   
